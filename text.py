@@ -97,10 +97,11 @@ scores = [80, 100, 70, 90, 40]
 
 
 def total(scores):
-    sum = 0
-    for x in scores:
-        sum += x
-    return sum
+    total_score= 0
+    for i in range(0, len(scores)):
+        total_score += scores[i]
+    return total_score
+
 
 
 print(total(scores))
