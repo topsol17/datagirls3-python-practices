@@ -9,3 +9,4 @@ def total(scores):
 
 print (total(scores))
 
+
