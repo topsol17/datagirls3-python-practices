@@ -22,4 +22,13 @@ def total(something):
 def test_total():
     assert total(scores) == 380
 
+scores = [80,100,70,90,40]
 
+def average(something):
+    total_scores = 0
+    for i in something:
+        total_scores += i
+    return total_scores / len(something)
+
+def test_average():
+    assert average(scores) == 76
