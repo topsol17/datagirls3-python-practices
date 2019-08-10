@@ -32,3 +32,5 @@ def average(something):
 
 def test_average():
     assert average(scores) == 76
+
+# 구구단은 어떻게 하는지 모르겠어요 ㅜㅜ
