@@ -66,4 +66,17 @@ def test_set():
 # append, remove, concatenate-> list에서 사용 가능한 것
 # union, intersaction, difference -> 집합 사용 가능
 
+class_scores = [
+    {
+        '국어': 80,
+        '영어': 100,
+        '수학': 50
+    },
+    {
+        '국어': 90,
+        '영어': 70,
+        '수학': 40
+    }
+]
+
 
